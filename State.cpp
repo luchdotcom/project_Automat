@@ -4,5 +4,4 @@
 
 #include "State.h"
 
-State::State( int *nameState, int countState, int state ) : nameState( nameState ), countState( countState ),
-                                                            state( state ) { }
+

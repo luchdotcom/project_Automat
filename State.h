@@ -5,7 +5,7 @@
 #ifndef PROJECT_AUTOMAT_STATE_H
 #define PROJECT_AUTOMAT_STATE_H
 
-
+template< typename T>
 class State {
 public:
     State( int *nameState, int countState, int state );
@@ -17,5 +17,6 @@ private:
 
 };
 
-
+template< typename T>State<T>::State( int *nameState, int countState, int state ) : nameState( nameState ), countState( countState ),
+                                                            state( state ) { }
 #endif //PROJECT_AUTOMAT_STATE_H
