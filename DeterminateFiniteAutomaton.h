@@ -1,0 +1,14 @@
+//
+// Created by Lachezar on 14.7.2020 г..
+//
+
+#ifndef PROJECT_AUTOMAT_DETERMINATEFINITEAUTOMATON_H
+#define PROJECT_AUTOMAT_DETERMINATEFINITEAUTOMATON_H
+
+
+class DeterminateFiniteAutomaton {
+
+};
+
+
+#endif //PROJECT_AUTOMAT_DETERMINATEFINITEAUTOMATON_H
