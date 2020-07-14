@@ -8,15 +8,41 @@
 template< typename T>
 class State {
 public:
-    State( int *nameState, int countState, int state );
+    State( const char *nameState, int countState, int state );//todo
+    State();//todo
+    State(const State&);//todo
+    State&operator=(const State &);//todo
+    ~State();
 
 private:
-    int *nameState;
+   T *nameState;///???
     int countState;
     int state =1;
 
 };
 
-template< typename T>State<T>::State( int *nameState, int countState, int state ) : nameState( nameState ), countState( countState ),
+template< typename T>
+State<T>::State( const char *nameState, int countState, int state ) : nameState( nameState ), countState( countState ),
                                                             state( state ) { }
+
+template< typename T >
+State< T >::State( ) {
+
+}
+
+template< typename T >
+State< T >::State( const State & ) {
+
+}
+
+template< typename T >
+State<T> &State< T >::operator=( const State<T> & ) {
+    return *this;
+}
+
+template< typename T >
+State< T >::~State( ) {
+
+}
+
 #endif //PROJECT_AUTOMAT_STATE_H

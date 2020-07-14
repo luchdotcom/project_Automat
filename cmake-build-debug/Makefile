@@ -122,6 +122,33 @@ project_Automat/fast:
 	$(MAKE) -f CMakeFiles\project_Automat.dir\build.make CMakeFiles/project_Automat.dir/build
 .PHONY : project_Automat/fast
 
+Alphabet.obj: Alphabet.cpp.obj
+
+.PHONY : Alphabet.obj
+
+# target to build an object file
+Alphabet.cpp.obj:
+	$(MAKE) -f CMakeFiles\project_Automat.dir\build.make CMakeFiles/project_Automat.dir/Alphabet.cpp.obj
+.PHONY : Alphabet.cpp.obj
+
+Alphabet.i: Alphabet.cpp.i
+
+.PHONY : Alphabet.i
+
+# target to preprocess a source file
+Alphabet.cpp.i:
+	$(MAKE) -f CMakeFiles\project_Automat.dir\build.make CMakeFiles/project_Automat.dir/Alphabet.cpp.i
+.PHONY : Alphabet.cpp.i
+
+Alphabet.s: Alphabet.cpp.s
+
+.PHONY : Alphabet.s
+
+# target to generate assembly for a file
+Alphabet.cpp.s:
+	$(MAKE) -f CMakeFiles\project_Automat.dir\build.make CMakeFiles/project_Automat.dir/Alphabet.cpp.s
+.PHONY : Alphabet.cpp.s
+
 AutomatonException.obj: AutomatonException.cpp.obj
 
 .PHONY : AutomatonException.obj
@@ -266,6 +293,9 @@ help:
 	@echo ... project_Automat
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Alphabet.obj
+	@echo ... Alphabet.i
+	@echo ... Alphabet.s
 	@echo ... AutomatonException.obj
 	@echo ... AutomatonException.i
 	@echo ... AutomatonException.s

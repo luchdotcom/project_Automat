@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Lachezar/CLionProjects/project_Automat/Alphabet.cpp">
+			<Option target="project_Automat"/>
+		</Unit>
+		<Unit filename="C:/Users/Lachezar/CLionProjects/project_Automat/Alphabet.h">
+			<Option target="project_Automat"/>
+		</Unit>
 		<Unit filename="C:/Users/Lachezar/CLionProjects/project_Automat/AutomatonException.cpp">
 			<Option target="project_Automat"/>
 		</Unit>

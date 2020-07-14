@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/project_Automat.dir/Alphabet.cpp.obj"
   "CMakeFiles/project_Automat.dir/AutomatonException.cpp.obj"
   "CMakeFiles/project_Automat.dir/DeterminateFiniteAutomaton.cpp.obj"
   "CMakeFiles/project_Automat.dir/DeterminateFiniteAutomatonInt.cpp.obj"
